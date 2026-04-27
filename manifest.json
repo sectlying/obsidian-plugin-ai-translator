@@ -1,7 +1,7 @@
 {
 	"id": "ai-translator",
 	"name": "AI Translator",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "A lightweight translation popup for notes and PDFs — just select text and translate instantly. Compatible with any OpenAI-compatible API.",
 	"author": "sectlying",

@@ -11,3 +11,7 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# compiled files
+main.js
+styles.css
