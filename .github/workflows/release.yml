@@ -46,5 +46,3 @@ jobs:
             main.js
             manifest.json
             styles.css
-            locales/en.json
-            locales/zh.json
