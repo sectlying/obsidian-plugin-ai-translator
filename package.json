@@ -1,14 +1,14 @@
 {
-  "name": "translate-ai",
-  "version": "3.0.0",
-  "description": "AI 翻译助手 - Obsidian 插件",
+  "name": "ai-translator",
+  "version": "1.0.0",
+  "description": "A lightweight translation popup for notes and PDFs — just select text and translate instantly. Compatible with any OpenAI-compatible API.",
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",
     "build": "node esbuild.config.mjs production"
   },
   "keywords": [],
-  "license": "MIT",
+  "license": "GPL-3.0",
   "devDependencies": {
     "esbuild": "0.21.5",
     "obsidian": "latest"

@@ -1,8 +1,9 @@
 # AI 翻译助手 / AI Translator
 
-Obsidian AI 翻译插件，支持任意 OpenAI 兼容 API。
+一个轻量级的翻译窗口，用于阅读笔记和PDF —— 选择文本即可立即翻译。兼容任何兼容 OpenAI 的 API。
 
-An Obsidian AI translation plugin that works with any OpenAI-compatible API.
+A lightweight translation popup for notes and PDFs — just select text and translate instantly. Compatible with any OpenAI-compatible API.
+
 
 ## 功能 / Features
 
@@ -13,6 +14,14 @@ An Obsidian AI translation plugin that works with any OpenAI-compatible API.
 - **OpenAI 兼容 / OpenAI Compatible** — 手动配置 API 地址、Key、模型名称 / Manually configure API endpoint, key, and model name
 - **思考模式 / Thinking Mode** — 支持 `enable_thinking`，适配推理模型 / Supports `enable_thinking` for reasoning models
 - **自定义提示词 / Custom Prompt** — 自由控制翻译风格和目标语言 / Control translation style and target language
+
+
+## 使用 / Usage
+
+1. 在 `设置 → 第三方插件 → AI Translator` 中配置 OpenAI API / Configure OpenAI API in `Settings → Community plugins → AI Translator`
+2. 在设置 → 快捷键中，找到「AI Translator: 翻译选中文本」，设置快捷键（如 `Alt+Z`）/ Go to `Settings → Hotkeys`, find "AI Translator: Translate Selection", set a shortcut (e.g., `Alt+Z`)
+3. 选中文本，按下快捷键即可翻译 / Select text and press the shortcut to translate
+
 
 ## 开发 / Development
 
