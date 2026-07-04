@@ -135,7 +135,7 @@ export default class AITranslatorPlugin extends Plugin {
 	}
 
 	async _handleScreenshotTranslate() {
-		if (!this.settings.enableScreenshot) {
+		if (!this.settings.enableScreenshotTranslate) {
 			new Notice(t('notice-screenshot-unsupported'));
 			return;
 		}

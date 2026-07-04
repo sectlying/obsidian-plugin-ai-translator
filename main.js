@@ -1393,7 +1393,7 @@ var AITranslatorPlugin = class extends import_obsidian2.Plugin {
     }
   }
   async _handleScreenshotTranslate() {
-    if (!this.settings.enableScreenshot) {
+    if (!this.settings.enableScreenshotTranslate) {
       new import_obsidian2.Notice(t("notice-screenshot-unsupported"));
       return;
     }
